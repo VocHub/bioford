@@ -1,0 +1,128 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<script type="text/javascript" src="./javascript.js"></script>
+<script
+    src="http://maps.googleapis.com/maps/api/js?key=YOUR_APIKEY&sensor=false">
+</script>
+  <link rel ="stylesheet" type = "text/css" href="ThinkLfyCSS.css">
+  <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<title>ThinkLfy</title>
+  
+    <style>
+body {
+  background-color: purple;
+  color:white;
+}
+</style>
+
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="https://dannyceron94.github.io/ThinkLfy/">ThinkLfy</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+   
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link center" href="https://dannyceron94.github.io/ThinkLfy"> Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"></a>
+      </li>
+      
+    </ul>
+  </div>
+</nav>
+<!--*******************************************End of nav*********************************************************-->
+
+<div class="container-fluid purp">
+                                          <!--  row 1  -->
+  <div class="row CenText " >
+    <div class ="col">
+      <p>
+About a fifth of the water we use comes from aquifers (Black and King 2009, 26). Some of this water is
+considered a nonrenewable resource. When rain falls in the hydrologic cycle, some evaporates, some runs off
+the surface, and some infiltrates through the soil and into sand, gravel, and pore spaces in the rock layers
+below.
+</p>
+
+<p>
+Humans in the industrialized world use huge quantities of water to support our lifestyle of a meat-rich diet
+and plentiful consumer goods. Direct water use is only a small part of the total picture of water consumption.
+Everything we eat not only contains water but also used additional water when it was grown. The concept of
+virtual water describes the quantity of water embedded in food and products, measured at the places where
+they were actually produced (Hoekstra and Chapagain 2008, 8). The virtual water content of a thing is also
+sometimes referred to as its water footprint (ibid., 3).
+</p>
+
+<p>
+Worldwide, agriculture makes up 70 percent of the embedded water use, 20 percent of water use comes
+from industry, and 10 percent comes from domestic use (Sachs 2015, 189). In the US about 41 percent of
+water use is for agriculture, 46 percent comes from industry, and 13 percent is for domestic use (Black and
+King 2009, 116). We use a lot of water for drinking, bathing, and cleaning, but the proportion appears
+modest compared to our consumption of virtual water embedded in the food we eat and the things we buy.
+</p>
+
+<p>
+Two options are possible: the traditional approach to solving water problems is to
+locate new supplies; an alternative approach is to use less water. Using less water or using it more efficiently is
+known as water conservation or water efficiency.
+</p>
+
+
+    </div>
+    <div class ="row">
+      <a href="">
+        <img src="water.JPG" alt="HTML tutorial" style="width:1000px;height:600px;border:5px;">
+      </a>
+    </div>
+  </div>
+
+                                          <!--  row 2  -->
+    <h3>Find out how much water you use when you shower</h3>
+    
+  <div class="row CenText">
+     
+        <a href="https://www.home-water-works.org/indoor-use/showers">
+            <img src="https://www.home-water-works.org/sites/default/files/img/indoor/wm-shower.jpg" alt="HTML tutorial" style="width:100px;height:150;border:0;">
+        </a>
+    Minutes you take showering: 
+    <input type="number" id="minutes" min="1"><br>
+    <button onClick="waterFunction()">Calculate</button>
+    <p id="result"></p>
+    <script>
+      function waterFunction() {
+        var t= document.getElementById("minutes").value;
+        t= 2.1*t;
+        document.getElementById("result").innerHTML = " On average you use: "+ t + "gallons of water while showering";
+      }
+    </script>
+  </div>
+ 
+                                        
+  
+  
+</div>
+                                <!--  end of containner fuild  -->
+
+  <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  
+
+</body>
+</html>

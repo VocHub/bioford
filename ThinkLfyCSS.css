@@ -1,0 +1,28 @@
+
+div.CenText{
+  text-align: center;
+  vertical-align: middle;
+  
+}
+div.purp{
+  backgroun-color: Purple;
+}
+
+div.center {
+  text-align: center;
+}
+
+div.row3{
+  background-color: #DAA520;
+  margin:3px;
+
+}
+
+div.row1row2box{
+  height:100px;
+  padding:10px;
+  margin:3px;
+
+  border: 5px;
+  background-color:#DAA520;
+}
